@@ -1,11 +1,11 @@
 import React from 'react'
-import {Layout, Text} from "@ui-kitten/components";
-import {StyleSheet} from "react-native";
+import { Layout, Text } from '@ui-kitten/components'
+import { StyleSheet } from 'react-native'
 
 const Guides: React.FC = () => {
   return (
-    <Layout level="3" style={styles.container}>
-      <Text>Syllabus</Text>
+    <Layout level="2" style={styles.container}>
+      <Text>Guides</Text>
     </Layout>
   )
 }

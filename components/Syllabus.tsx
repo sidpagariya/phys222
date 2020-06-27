@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native'
 
 const Syllabus: React.FC = () => {
   return (
-    <Layout level="3" style={styles.container}>
+    <Layout level="2" style={styles.container}>
       <Text>Syllabus</Text>
     </Layout>
   )

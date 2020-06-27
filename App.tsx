@@ -16,7 +16,7 @@ import {
 import { EvaIconsPack } from '@ui-kitten/eva-icons'
 import { StyleSheet } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
-import { linking, Routes } from './constants/Views'
+import { linking, Routes } from './constants/AppRoutes'
 import BottomTabs from './components/BottomTabs'
 import { createStackNavigator } from '@react-navigation/stack'
 import { default as customTheme } from './constants/custom-theme'
@@ -68,7 +68,10 @@ const App = (): React.ReactFragment => {
   return (
     <React.Fragment>
       <IconRegistry icons={EvaIconsPack} />
-      <ApplicationProvider mapping={mapping} theme={{...theme, ...customTheme}}>
+      <ApplicationProvider
+        mapping={mapping}
+        theme={{ ...theme, ...customTheme }}
+      >
         <TopNavigation
           alignment="center"
           title="Physics 222!"

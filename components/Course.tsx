@@ -1,10 +1,11 @@
 import React from 'react'
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs'
 import { Icon, Layout, Tab, TabBar, TabElement } from '@ui-kitten/components'
-import { Routes } from '../constants/Views'
+import { Routes } from '../constants/AppRoutes'
 import Schedule from './Schedule'
 import Syllabus from './Syllabus'
 import DueDates from './DueDates'
+import TopTabBar from './TopTabs'
 
 const TopTab = createMaterialTopTabNavigator()
 
@@ -15,7 +16,7 @@ const SyllabusIcon = (props: any) => (
 const DueDatesIcon = (props: any) => <Icon {...props} name="clock-outline" />
 
 const Course = (): React.ReactElement => (
-  <TopTab.Navigator tabBar={(props) => <CourseTabBar {...props} />}>
+  <TopTab.Navigator tabBar={(props) => <TopTabBar {...props} />}>
     <TopTab.Screen
       name={Routes.SCHEDULE}
       component={Schedule}
@@ -33,27 +34,5 @@ const Course = (): React.ReactElement => (
     />
   </TopTab.Navigator>
 )
-
-const CourseTabBar = (props: any): React.ReactElement => {
-  const onTabSelect = (index: number) => {
-    const selectedTabRoute: string = props.state.routeNames[index]
-    props.navigation.navigate(selectedTabRoute)
-  }
-
-  const createNavigationTabForRoute = (route: any): TabElement => {
-    const { options } = props.descriptors[route.key]
-    return (
-      <Tab key={route.key} title={options.title} icon={options.tabBarIcon} />
-    )
-  }
-
-  return (
-    <Layout level="2">
-      <TabBar selectedIndex={props.state.index} onSelect={onTabSelect}>
-        {props.state.routes.map(createNavigationTabForRoute)}
-      </TabBar>
-    </Layout>
-  )
-}
 
 export default Course

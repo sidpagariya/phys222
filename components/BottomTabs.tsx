@@ -8,11 +8,14 @@ import {
   Layout,
 } from '@ui-kitten/components'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import { Routes } from '../constants/Views'
+import { Routes } from '../constants/AppRoutes'
 import Course from './Course'
 import Clutch from './Clutch'
 import { StackScreenProps } from '@react-navigation/stack'
-import { ParamListBase, getFocusedRouteNameFromRoute } from '@react-navigation/native'
+import {
+  ParamListBase,
+  getFocusedRouteNameFromRoute,
+} from '@react-navigation/native'
 
 const CourseIcon = (props: any) => <Icon {...props} name="bulb" />
 const ClutchIcon = (props: any) => <Icon {...props} name="star" />
@@ -23,14 +26,13 @@ const BottomTabs = ({
   navigation,
   route,
 }: StackScreenProps<ParamListBase, string>): React.ReactElement => {
-
   console.log(getFocusedRouteNameFromRoute(route))
   const routeName = getFocusedRouteNameFromRoute(route) ?? Routes.COURSE
 
   React.useLayoutEffect(() => {
     navigation.setOptions({
       title: routeName,
-    });
+    })
   }, [navigation, routeName])
 
   return (
@@ -38,12 +40,12 @@ const BottomTabs = ({
       <BottomTab.Screen
         name={Routes.COURSE}
         component={Course}
-        options={{title: 'COURSE', tabBarIcon: CourseIcon}}
+        options={{ title: 'COURSE', tabBarIcon: CourseIcon }}
       />
       <BottomTab.Screen
         name={Routes.CLUTCH}
         component={Clutch}
-        options={{title: 'CLUTCH', tabBarIcon: ClutchIcon}}
+        options={{ title: 'CLUTCH', tabBarIcon: ClutchIcon }}
       />
     </BottomTab.Navigator>
   )

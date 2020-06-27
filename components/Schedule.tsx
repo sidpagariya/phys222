@@ -1,10 +1,10 @@
 import React from 'react'
-import { Button, Layout, Text } from '@ui-kitten/components'
+import { Layout, Text } from '@ui-kitten/components'
 import { StyleSheet } from 'react-native'
 
 const Schedule: React.FC = () => {
   return (
-    <Layout level="3" style={styles.container}>
+    <Layout level="2" style={styles.container}>
       <Text>Schedule</Text>
     </Layout>
   )
