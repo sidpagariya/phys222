@@ -1,11 +1,51 @@
 import React from 'react'
-import { Layout, Text } from '@ui-kitten/components'
-import { StyleSheet } from 'react-native'
+import { Card, Layout, Text } from '@ui-kitten/components'
+import { ScrollView, StyleSheet, View } from 'react-native'
+import { syllabusData } from '../constants/data'
+import { Link } from '@react-navigation/native'
+
+const SyllabusEntryCard = (props: any) => {
+  const title = props.title
+  const SyllabusEntryHeader = (props: any) => (
+    <View {...props}>
+      <Text category="h4">{title}</Text>
+    </View>
+  )
+  return (
+    <Card header={SyllabusEntryHeader} style={styles.card}>
+      {props.link ? (
+        props.contents.map((content: string) => (
+          <a target="_blank" href={props.to}>{content}</a>
+        ))
+      ) : props.bulleted ? (
+        <ul>
+          {props.contents.map((content: string) => (
+            <li>
+              <Text style={styles.text}>{content}</Text>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        props.contents.map((content: string) => (
+          <Text style={styles.text}>{content}</Text>
+        ))
+      )}
+    </Card>
+  )
+}
+
+const SyllabusTable: React.FC = () => (
+  <ScrollView>
+    {[...syllabusData].map((syllabusEntry, index) => (
+      <SyllabusEntryCard {...syllabusEntry} key={index} />
+    ))}
+  </ScrollView>
+)
 
 const Syllabus: React.FC = () => {
   return (
     <Layout level="2" style={styles.container}>
-      <Text>Syllabus</Text>
+      <SyllabusTable />
     </Layout>
   )
 }
@@ -17,6 +57,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     paddingVertical: 10,
     justifyContent: 'center',
+  },
+  card: {
+    marginTop: 8,
+    borderWidth: 3,
+  },
+  text: {
+    marginBottom: 2,
   },
 })
 

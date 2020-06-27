@@ -1,8 +1,8 @@
 import React from 'react'
-import {Card, Layout, Text} from '@ui-kitten/components'
-import {ScrollView, StyleSheet, View} from 'react-native'
+import { Card, Layout, Text } from '@ui-kitten/components'
+import { ScrollView, StyleSheet, View } from 'react-native'
 import { scheduleData } from '../constants/data'
-import {colors} from "../constants/custom-theme";
+import { colors } from '../constants/custom-theme'
 
 const LectureCard = (props: any) => {
   const lecNum = props.lec
@@ -63,18 +63,17 @@ const WeekCard = (props: any) => {
   return (
     <Card header={WeekHeader} style={styles.card}>
       {props.lectures.map((lecture: LectureData, index: number) => (
-        <LectureCard {...lecture} key={index}/>
+        <LectureCard {...lecture} key={index} />
       ))}
     </Card>
   )
 }
 
-const ScheduleTable: React.FC = (props) => (
+const ScheduleTable: React.FC = () => (
   <ScrollView>
     {[...scheduleData].map((weekData, index) => (
       <WeekCard {...weekData} key={index} />
     ))}
-
   </ScrollView>
 )
 
