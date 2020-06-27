@@ -3,7 +3,7 @@
   "scripts": {
     "web": "expo start --web",
     "eject": "expo eject",
-    "build": "NODE_ENV=production expo build:web"
+    "build": "expo build:web"
   },
   "dependencies": {
     "@eva-design/eva": "^2.0.0",
