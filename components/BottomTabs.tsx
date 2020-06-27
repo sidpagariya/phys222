@@ -26,7 +26,6 @@ const BottomTabs = ({
   navigation,
   route,
 }: StackScreenProps<ParamListBase, string>): React.ReactElement => {
-  console.log(getFocusedRouteNameFromRoute(route))
   const routeName = getFocusedRouteNameFromRoute(route) ?? Routes.COURSE
 
   React.useLayoutEffect(() => {

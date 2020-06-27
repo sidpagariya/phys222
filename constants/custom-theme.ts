@@ -76,4 +76,6 @@ export const myTheme = {
   'color-danger-transparent-600': 'rgba(252, 93, 130, 0.48)',
 }
 
+export const colors = ['#74b9ff', '#e17055', '#00b894', '#fd79a8', '#a29bfe']
+
 export default myTheme
