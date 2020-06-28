@@ -10,4 +10,18 @@ interface LectureData {
 interface WeekData {
   week: number
   lectures: LectureData[]
+  dates: string
+}
+
+interface SyllabusData {
+  title: string
+  contents: string[]
+  bullets?: boolean
+  link?: boolean
+  to?: string
+}
+
+interface DueDateData {
+  assignment: string
+  date: string
 }

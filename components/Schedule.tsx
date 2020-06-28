@@ -55,9 +55,11 @@ const LectureCard = (props: any) => {
 
 const WeekCard = (props: any) => {
   const weekNum = props.week
+  const weekDates = props.dates
   const WeekHeader = (props: any) => (
     <View {...props}>
       <Text category="h4">Week {weekNum}</Text>
+      <Text>{weekDates}</Text>
     </View>
   )
   return (

@@ -1,6 +1,7 @@
 export const scheduleData: WeekData[] = [
   {
     week: 1,
+    dates: '05/26-05/28',
     lectures: [
       {
         lec: 1,
@@ -30,6 +31,7 @@ export const scheduleData: WeekData[] = [
   },
   {
     week: 2,
+    dates: '06/02-06/04',
     lectures: [
       {
         lec: 4,
@@ -59,6 +61,7 @@ export const scheduleData: WeekData[] = [
   },
   {
     week: 3,
+    dates: '06/09-06/11',
     lectures: [
       {
         lec: 7,
@@ -88,6 +91,7 @@ export const scheduleData: WeekData[] = [
   },
   {
     week: 4,
+    dates: '06/16-06/18',
     lectures: [
       {
         lec: 10,
@@ -117,6 +121,7 @@ export const scheduleData: WeekData[] = [
   },
   {
     week: 5,
+    dates: '06/23-06/25',
     lectures: [
       {
         lec: 13,
@@ -146,6 +151,7 @@ export const scheduleData: WeekData[] = [
   },
   {
     week: 6,
+    dates: '06/30-07/02',
     lectures: [
       {
         lec: 16,
@@ -175,6 +181,7 @@ export const scheduleData: WeekData[] = [
   },
   {
     week: 7,
+    dates: '07/07-07/09',
     lectures: [
       {
         lec: 19,
@@ -204,6 +211,7 @@ export const scheduleData: WeekData[] = [
   },
   {
     week: 8,
+    dates: '07/14-07/16',
     lectures: [
       {
         lec: 22,
@@ -233,6 +241,7 @@ export const scheduleData: WeekData[] = [
   },
   {
     week: 9,
+    dates: '07/21-07/23',
     lectures: [
       {
         lec: 25,
@@ -262,6 +271,7 @@ export const scheduleData: WeekData[] = [
   },
   {
     week: 10,
+    dates: '07/28-07/31',
     lectures: [
       {
         lec: 28,
@@ -291,7 +301,7 @@ export const scheduleData: WeekData[] = [
   },
 ]
 
-export const syllabusData: any[] = [
+export const syllabusData: SyllabusData[] = [
   {
     title: 'Course Info',
     contents: [
@@ -424,5 +434,60 @@ export const syllabusData: any[] = [
     contents: [
       'Syllabus PDF'
     ]
+  }
+]
+
+export const dueDateData: any[] = [
+  {
+    assignments: [
+      'Unit 1 Practice Quiz',
+      'Ch. 21',
+      'Ch. 22',
+      'Ch. 23',
+    ],
+    date: 'June 8, 2020',
+    exam: 1
+  },
+  {
+    assignments: [
+      'Unit 2 Practice Quiz',
+      'Ch. 24',
+      'Ch. 25',
+      'Ch. 26',
+      'Ch. 27',
+    ],
+    date: 'June 22, 2020',
+    exam: 2
+  },
+  {
+    assignments: [
+      'Unit 3 Practice Quiz',
+      'Ch. 28',
+      'Ch. 29',
+      'Ch. 30'
+    ],
+    date: 'July 7, 2020',
+    exam: 3
+  },
+  {
+    assignments: [
+      'Unit 4 Practice Quiz',
+      'Ch. 31',
+      'Ch. 32',
+      'Ch. 33',
+    ],
+    date: 'July 20, 2020',
+    exam: 4
+  },
+  {
+    assignments: [
+      'Unit 5 Practice Quiz',
+      'Ch. 34',
+      'Ch. 35',
+      'Ch. 36',
+      'Ch. 37',
+    ],
+    date: 'June 27, 2020',
+    exam: 5
   }
 ]
