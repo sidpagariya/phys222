@@ -6,14 +6,14 @@ import { colors } from '../constants/custom-theme'
 
 const DueDateCard = (props: any) => {
   const date = props.date
-  const SyllabusEntryHeader = (props: any) => (
+  const DueDateCardHeader = (props: any) => (
     <View {...props}>
       <Text category="h5">{date}</Text>
     </View>
   )
   return (
     <Card
-      header={SyllabusEntryHeader}
+      header={DueDateCardHeader}
       style={[{ borderColor: colors[props.exam - 1] }, styles.card]}
     >
       {props.assignments.map((assignment: string) => (
