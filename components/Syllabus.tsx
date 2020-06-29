@@ -13,22 +13,22 @@ const SyllabusEntryCard = (props: any) => {
   return (
     <Card header={SyllabusEntryHeader} style={styles.card}>
       {props.link ? (
-        props.contents.map((content: string) => (
-          <a target="_blank" href={props.to}>
+        props.contents.map((content: string, index: number) => (
+          <a target="_blank" href={props.to} key={index}>
             {content}
           </a>
         ))
       ) : props.bulleted ? (
         <ul>
-          {props.contents.map((content: string) => (
-            <li>
+          {props.contents.map((content: string, index: number) => (
+            <li key={index}>
               <Text style={styles.text}>{content}</Text>
             </li>
           ))}
         </ul>
       ) : (
-        props.contents.map((content: string) => (
-          <Text style={styles.text}>{content}</Text>
+        props.contents.map((content: string, index: number) => (
+          <Text style={styles.text} key={index}>{content}</Text>
         ))
       )}
     </Card>
