@@ -436,7 +436,7 @@ export const syllabusData: SyllabusData[] = [
   },
 ]
 
-export const dueDateData: any[] = [
+export const dueDateData: DueDateData[] = [
   {
     assignments: ['Unit 1 Practice Quiz', 'Ch. 21', 'Ch. 22', 'Ch. 23'],
     date: 'June 8, 2020',

@@ -22,6 +22,7 @@ interface SyllabusData {
 }
 
 interface DueDateData {
-  assignment: string
+  assignments: string[]
   date: string
+  exam: number
 }
