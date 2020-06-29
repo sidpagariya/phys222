@@ -431,7 +431,7 @@ export const syllabusData: SyllabusData[] = [
     title: 'Other information',
     link: true,
     to:
-      'https://raw.githubusercontent.com/sidpagariya/phys222/master/syllabus.pdf',
+      'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/syllabus.pdf',
     contents: ['Syllabus PDF'],
   },
 ]
