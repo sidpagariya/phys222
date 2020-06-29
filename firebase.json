@@ -5,6 +5,18 @@
       {
         "source": "**/*.@(html|js)",
         "headers": [{ "key": "Cache-Control", "value": "max-age=60" }]
+      },
+      {
+        "source": "/service-worker.js",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+      },
+      {
+        "source": "/register-service-worker.js",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+      },
+      {
+        "source": "/expo-service-worker.js",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
       }
     ],
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
