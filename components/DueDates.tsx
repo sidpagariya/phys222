@@ -1,8 +1,8 @@
 import React from 'react'
-import {Card, Layout, Text} from '@ui-kitten/components'
-import {ScrollView, StyleSheet, View} from 'react-native'
-import {dueDateData} from "../constants/data";
-import {colors} from "../constants/custom-theme";
+import { Card, Layout, Text } from '@ui-kitten/components'
+import { ScrollView, StyleSheet, View } from 'react-native'
+import { dueDateData } from '../constants/data'
+import { colors } from '../constants/custom-theme'
 
 const DueDateCard = (props: any) => {
   const date = props.date
@@ -12,7 +12,10 @@ const DueDateCard = (props: any) => {
     </View>
   )
   return (
-    <Card header={SyllabusEntryHeader} style={[{ borderColor: colors[props.exam-1] }, styles.card]}>
+    <Card
+      header={SyllabusEntryHeader}
+      style={[{ borderColor: colors[props.exam - 1] }, styles.card]}
+    >
       {props.assignments.map((assignment: string) => (
         <Text style={styles.text}>{assignment}</Text>
       ))}

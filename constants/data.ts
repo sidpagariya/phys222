@@ -430,23 +430,17 @@ export const syllabusData: SyllabusData[] = [
   {
     title: 'Other information',
     link: true,
-    to: 'https://raw.githubusercontent.com/sidpagariya/phys222/master/syllabus.pdf',
-    contents: [
-      'Syllabus PDF'
-    ]
-  }
+    to:
+      'https://raw.githubusercontent.com/sidpagariya/phys222/master/syllabus.pdf',
+    contents: ['Syllabus PDF'],
+  },
 ]
 
 export const dueDateData: any[] = [
   {
-    assignments: [
-      'Unit 1 Practice Quiz',
-      'Ch. 21',
-      'Ch. 22',
-      'Ch. 23',
-    ],
+    assignments: ['Unit 1 Practice Quiz', 'Ch. 21', 'Ch. 22', 'Ch. 23'],
     date: 'June 8, 2020',
-    exam: 1
+    exam: 1,
   },
   {
     assignments: [
@@ -457,27 +451,17 @@ export const dueDateData: any[] = [
       'Ch. 27',
     ],
     date: 'June 22, 2020',
-    exam: 2
+    exam: 2,
   },
   {
-    assignments: [
-      'Unit 3 Practice Quiz',
-      'Ch. 28',
-      'Ch. 29',
-      'Ch. 30'
-    ],
+    assignments: ['Unit 3 Practice Quiz', 'Ch. 28', 'Ch. 29', 'Ch. 30'],
     date: 'July 7, 2020',
-    exam: 3
+    exam: 3,
   },
   {
-    assignments: [
-      'Unit 4 Practice Quiz',
-      'Ch. 31',
-      'Ch. 32',
-      'Ch. 33',
-    ],
+    assignments: ['Unit 4 Practice Quiz', 'Ch. 31', 'Ch. 32', 'Ch. 33'],
     date: 'July 20, 2020',
-    exam: 4
+    exam: 4,
   },
   {
     assignments: [
@@ -487,7 +471,7 @@ export const dueDateData: any[] = [
       'Ch. 36',
       'Ch. 37',
     ],
-    date: 'June 27, 2020',
-    exam: 5
-  }
+    date: 'July 27, 2020',
+    exam: 5,
+  },
 ]

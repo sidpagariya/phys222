@@ -14,7 +14,9 @@ const SyllabusEntryCard = (props: any) => {
     <Card header={SyllabusEntryHeader} style={styles.card}>
       {props.link ? (
         props.contents.map((content: string) => (
-          <a target="_blank" href={props.to}>{content}</a>
+          <a target="_blank" href={props.to}>
+            {content}
+          </a>
         ))
       ) : props.bulleted ? (
         <ul>

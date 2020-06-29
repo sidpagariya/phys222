@@ -2,13 +2,12 @@
   "hosting": {
     "public": "web-build",
     "headers": [
-      { "source":"**/*.@(html|js)", "headers": [{"key": "Cache-Control", "value": "max-age=60"}] }
+      {
+        "source": "**/*.@(html|js)",
+        "headers": [{ "key": "Cache-Control", "value": "max-age=60" }]
+      }
     ],
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
         "source": "**",
