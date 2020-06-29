@@ -26,3 +26,10 @@ interface DueDateData {
   date: string
   exam: number
 }
+
+interface LabData {
+  title: string
+  data?: string
+  handout?: string
+  other?: string
+}
