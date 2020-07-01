@@ -516,6 +516,8 @@ export const labData: LabData[] = [
   },
   {
     title: 'Mag Fields',
+    data: 'https://wccedu-my.sharepoint.com/:x:/g/personal/spagariya_wccnet_edu/EQcDnNXkGXpIvDKk4gJzub8B1rGPXAO9_yPfYxLDNGyLuw?e=rlM0zP',
+    other: 'https://wccedu-my.sharepoint.com/personal/rkeeton_wccnet_edu/_layouts/15/guestaccess.aspx?e=PNaJiD&share=EXpcoMWkZTVNq-GACiIz9gsBzrCIClaMjPO4JxmpdwTZBw',
   },
   {
     title: 'RL Circuit',
