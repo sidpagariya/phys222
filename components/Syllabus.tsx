@@ -28,7 +28,9 @@ const SyllabusEntryCard = (props: any) => {
         </ul>
       ) : (
         props.contents.map((content: string, index: number) => (
-          <Text style={styles.text} key={index}>{content}</Text>
+          <Text style={styles.text} key={index}>
+            {content}
+          </Text>
         ))
       )}
     </Card>

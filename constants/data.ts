@@ -479,45 +479,63 @@ export const dueDateData: DueDateData[] = [
 export const labData: LabData[] = [
   {
     title: 'Electrostatics with Balloons',
-    other: 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EeFtfGB1aHdMsyUR5k9PAwsBDpi6i0YpgqFXH3zgJLmIPQ?e=6nAWhh'
+    other:
+      'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EeFtfGB1aHdMsyUR5k9PAwsBDpi6i0YpgqFXH3zgJLmIPQ?e=6nAWhh',
   },
   {
     title: 'Mapping E-fields',
-    data: 'https://wccedu-my.sharepoint.com/:x:/g/personal/spagariya_wccnet_edu/EcRj3GZu2UJAg2zPF_8QPKoBP_1L0ilD2tMndqSSvyPpVQ?e=gOa4Ik',
-    other: 'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/labs/mapping_e_fields_setup.png'
+    data:
+      'https://wccedu-my.sharepoint.com/:x:/g/personal/spagariya_wccnet_edu/EcRj3GZu2UJAg2zPF_8QPKoBP_1L0ilD2tMndqSSvyPpVQ?e=gOa4Ik',
+    other:
+      'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/labs/mapping_e_fields_setup.png',
   },
   {
     title: 'Capacitors in Series and Parallel',
-    data: 'https://wccedu-my.sharepoint.com/:x:/g/personal/spagariya_wccnet_edu/EZKK_7CmMSxFmUsuPejS6WkBqVV1XO-Nq6Ki3MpsNlgZJA?e=POd2w6',
-    handout: 'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/labs/cap_lab.pdf',
+    data:
+      'https://wccedu-my.sharepoint.com/:x:/g/personal/spagariya_wccnet_edu/EZKK_7CmMSxFmUsuPejS6WkBqVV1XO-Nq6Ki3MpsNlgZJA?e=POd2w6',
+    handout:
+      'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/labs/cap_lab.pdf',
   },
   {
     title: 'Resistance-Resistivity',
-    data: 'https://wccedu-my.sharepoint.com/:x:/g/personal/spagariya_wccnet_edu/EU5_qHaWImdPtMEha1KvMeAB7mOMNsveqlCal30LjwdYuA?e=8qsK7e',
-    handout: 'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/labs/resist_lab.pdf',
-    other: 'https://wccedu-my.sharepoint.com/personal/rkeeton_wccnet_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Frkeeton%5Fwccnet%5Fedu%2FDocuments%2FPHY222%2FVirtual%20Labs%2FVirtual%20Lab%20Resistance%2DResistivity%20Data%20Collection%2Emp4&parent=%2Fpersonal%2Frkeeton%5Fwccnet%5Fedu%2FDocuments%2FPHY222%2FVirtual%20Labs&originalPath=aHR0cHM6Ly93Y2NlZHUtbXkuc2hhcmVwb2ludC5jb20vOnY6L2cvcGVyc29uYWwvcmtlZXRvbl93Y2NuZXRfZWR1L0VRbVRheFFOeGJSTXRsOFpRUDdqaDdRQnBvNnJhajRFWUlPSkdIbm5LSG9MYVE_cnRpbWU9X3hkcUI5MGIyRWc'
+    data:
+      'https://wccedu-my.sharepoint.com/:x:/g/personal/spagariya_wccnet_edu/EU5_qHaWImdPtMEha1KvMeAB7mOMNsveqlCal30LjwdYuA?e=8qsK7e',
+    handout:
+      'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/labs/resist_lab.pdf',
+    other:
+      'https://wccedu-my.sharepoint.com/personal/rkeeton_wccnet_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Frkeeton%5Fwccnet%5Fedu%2FDocuments%2FPHY222%2FVirtual%20Labs%2FVirtual%20Lab%20Resistance%2DResistivity%20Data%20Collection%2Emp4&parent=%2Fpersonal%2Frkeeton%5Fwccnet%5Fedu%2FDocuments%2FPHY222%2FVirtual%20Labs&originalPath=aHR0cHM6Ly93Y2NlZHUtbXkuc2hhcmVwb2ludC5jb20vOnY6L2cvcGVyc29uYWwvcmtlZXRvbl93Y2NuZXRfZWR1L0VRbVRheFFOeGJSTXRsOFpRUDdqaDdRQnBvNnJhajRFWUlPSkdIbm5LSG9MYVE_cnRpbWU9X3hkcUI5MGIyRWc',
   },
   {
     title: 'Circuit Analysis',
-    data: 'https://wccedu-my.sharepoint.com/:x:/g/personal/spagariya_wccnet_edu/EdbpcE3IfFhEp2oN12x12hYBjj1ay_bX5pPz1fpjVyKEmA?e=xW44PP',
-    handout: 'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/labs/circuit_analysis_lab.pdf',
-    other: 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EXtVrsecHWtPtqRWc_CwhCsBTuKk9UzosoIBtM-v83TRxw?e=18XoYd'
+    data:
+      'https://wccedu-my.sharepoint.com/:x:/g/personal/spagariya_wccnet_edu/EdbpcE3IfFhEp2oN12x12hYBjj1ay_bX5pPz1fpjVyKEmA?e=xW44PP',
+    handout:
+      'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/labs/circuit_analysis_lab.pdf',
+    other:
+      'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EXtVrsecHWtPtqRWc_CwhCsBTuKk9UzosoIBtM-v83TRxw?e=18XoYd',
   },
   {
     title: 'RC Circuits',
-    data: 'https://wccedu-my.sharepoint.com/:x:/g/personal/spagariya_wccnet_edu/ERSQBexQ_SNNqaEVoJVsToMBZSHewKX1XWDpz2bjtsj9KA?e=tFyPiy',
-    handout: 'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/labs/rc_lab.pdf',
-    other: 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EULs3mfd5ixDrWb7cJqmJFUBxDWh95MKjRRFlCcKGvt5Hg?e=4L50sc'
+    data:
+      'https://wccedu-my.sharepoint.com/:x:/g/personal/spagariya_wccnet_edu/ERSQBexQ_SNNqaEVoJVsToMBZSHewKX1XWDpz2bjtsj9KA?e=tFyPiy',
+    handout:
+      'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/labs/rc_lab.pdf',
+    other:
+      'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EULs3mfd5ixDrWb7cJqmJFUBxDWh95MKjRRFlCcKGvt5Hg?e=4L50sc',
   },
   {
     title: 'e/m',
-    handout: 'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/labs/e_m_lab.pdf',
-    other: 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/Ed3Cobp0hlFDkM-w_qE_wM4B2cEF9E51bV8esQ6eVPl2bg?e=YCESh5'
+    handout:
+      'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/labs/e_m_lab.pdf',
+    other:
+      'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/Ed3Cobp0hlFDkM-w_qE_wM4B2cEF9E51bV8esQ6eVPl2bg?e=YCESh5',
   },
   {
     title: 'Mag Fields',
-    data: 'https://wccedu-my.sharepoint.com/:x:/g/personal/spagariya_wccnet_edu/EQcDnNXkGXpIvDKk4gJzub8B1rGPXAO9_yPfYxLDNGyLuw?e=rlM0zP',
-    other: 'https://wccedu-my.sharepoint.com/personal/rkeeton_wccnet_edu/_layouts/15/guestaccess.aspx?e=PNaJiD&share=EXpcoMWkZTVNq-GACiIz9gsBzrCIClaMjPO4JxmpdwTZBw',
+    data:
+      'https://wccedu-my.sharepoint.com/:x:/g/personal/spagariya_wccnet_edu/EQcDnNXkGXpIvDKk4gJzub8B1rGPXAO9_yPfYxLDNGyLuw?e=rlM0zP',
+    other:
+      'https://wccedu-my.sharepoint.com/personal/rkeeton_wccnet_edu/_layouts/15/guestaccess.aspx?e=PNaJiD&share=EXpcoMWkZTVNq-GACiIz9gsBzrCIClaMjPO4JxmpdwTZBw',
   },
   {
     title: 'RL Circuit',

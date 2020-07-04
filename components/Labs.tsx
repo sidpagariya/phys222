@@ -1,30 +1,41 @@
 import React from 'react'
-import {Card, Layout, Text} from '@ui-kitten/components'
-import {ScrollView, StyleSheet, View} from 'react-native'
-import {labData} from "../constants/data";
+import { Card, Layout, Text } from '@ui-kitten/components'
+import { ScrollView, StyleSheet, View } from 'react-native'
+import { labData } from '../constants/data'
 
 const LabCard = (props: any) => {
   const labTitle = props.title
   const labNumber = props.num
   const LabCardHeader = (props: any) => (
     <View {...props}>
-      <Text category="h5">Lab {labNumber}: {labTitle}</Text>
+      <Text category="h5">
+        Lab {labNumber}: {labTitle}
+      </Text>
     </View>
   )
   return (
-    <Card
-      header={LabCardHeader}
-      style={styles.card}
-    >
-      {
-        props.data? (<Text style={styles.text}><a target="_blank" href={props.data} style={{color: 'inherit'}}>Data</a></Text>) : null
-      }
-      {
-        props.handout? (<Text style={styles.text}><a target="_blank" href={props.handout} style={{color: 'inherit'}}>Handout</a></Text>) : null
-      }
-      {
-        props.other? (<Text style={styles.text}><a target="_blank" href={props.other} style={{color: 'inherit'}}>Other</a></Text>) : null
-      }
+    <Card header={LabCardHeader} style={styles.card}>
+      {props.data ? (
+        <Text style={styles.text}>
+          <a target="_blank" href={props.data} style={{ color: 'inherit' }}>
+            Data
+          </a>
+        </Text>
+      ) : null}
+      {props.handout ? (
+        <Text style={styles.text}>
+          <a target="_blank" href={props.handout} style={{ color: 'inherit' }}>
+            Handout
+          </a>
+        </Text>
+      ) : null}
+      {props.other ? (
+        <Text style={styles.text}>
+          <a target="_blank" href={props.other} style={{ color: 'inherit' }}>
+            Other
+          </a>
+        </Text>
+      ) : null}
     </Card>
   )
 }
@@ -58,8 +69,8 @@ const styles = StyleSheet.create({
   },
   text: {
     marginBottom: 8,
-    textDecorationLine: 'underline'
-  }
+    textDecorationLine: 'underline',
+  },
 })
 
 export default Labs

@@ -17,7 +17,9 @@ const DueDateCard = (props: any) => {
       style={[{ borderColor: colors[props.exam - 1] }, styles.card]}
     >
       {props.assignments.map((assignment: string, index: number) => (
-        <Text style={styles.text} key={index}>{assignment}</Text>
+        <Text style={styles.text} key={index}>
+          {assignment}
+        </Text>
       ))}
     </Card>
   )
