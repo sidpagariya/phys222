@@ -539,8 +539,12 @@ export const labData: LabData[] = [
   },
   {
     title: 'RL Circuit',
+    handout: 'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/labs/rl_lab.pdf',
+    other: 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EbKmfwSX-IlIq2NIf2ynPUIBOZ3Xfp2xmqLNfKRvyLoZgA?e=MYUEYK'
   },
   {
     title: 'RLC Circuit',
+    handout: 'https://raw.githubusercontent.com/sidpagariya/phys222/master/files/labs/rlc_lab.pdf',
+    other: 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/Eag70VHy3KFHsrw8jxFgg74Be5A_oxLyXhy6KW3eZ2Bp0Q?e=QUV84J'
   },
 ]
