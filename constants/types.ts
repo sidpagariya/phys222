@@ -33,3 +33,7 @@ interface LabData {
   handout?: string
   other?: string
 }
+
+interface LecturesData {
+  lectures: {}
+}

@@ -6,7 +6,7 @@ export enum Routes {
   SYLLABUS = 'Syllabus',
   DUE_DATES = 'Due Dates',
   LABS = 'Labs',
-  GUIDES = 'Guides',
+  LECTURES = 'Lectures',
 }
 
 export const linking = {
@@ -27,7 +27,7 @@ export const linking = {
             path: 'clutch',
             screens: {
               [Routes.LABS]: 'labs',
-              [Routes.GUIDES]: 'guides',
+              [Routes.LECTURES]: 'lectures',
             },
           },
         },

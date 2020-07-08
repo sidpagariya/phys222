@@ -43,7 +43,7 @@ const LabCard = (props: any) => {
 const LabsTable: React.FC = () => (
   <ScrollView>
     {[...labData].map((syllabusEntry, index) => (
-      <LabCard {...syllabusEntry} num={index} key={index} />
+      <LabCard {...syllabusEntry} num={index+1} key={index} />
     ))}
   </ScrollView>
 )
