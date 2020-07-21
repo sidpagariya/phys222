@@ -46,7 +46,7 @@ const LectureCard = (props: any) => {
       ]}
     >
       <Text category="h6">
-        {props.exam === 6 ? `Final Exam (Optional)` : `Exam ${props.exam - 1}`}
+        {`Exam ${props.exam - 1}`}
       </Text>
       {props.read ? <Text>Read {props.read}</Text> : <Text>No Class!</Text>}
     </Card>
