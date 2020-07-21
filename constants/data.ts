@@ -580,6 +580,36 @@ export const lectureData: LecturesData[] =
         'Lenz\'s Law': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EZyVn5zt3t1HmbikLKvpWGkBpfidB8mj6Iw-87_d9WNeNw?e=6JABYW',
         'Faraday\'s Law': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EU7BVQMphLxFusTk8Wq4ZOoBCXXIhWZFPXcaoOohRUyErA?e=98t8ia',
         'Motional emf': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EWPXDSE2r1NLo72oCzXrZ74BU6Hzuaf0CJSo9jnoh7d5_A?e=SIMmJ9',
+        'Induced Currents': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/ESC-wARtYTdPjwf1qkLuiHQBlGXAlfhOB2Ey2w9Gn9azOA?e=3jE8u2',
+        'Induced Fields': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EQAXJACZ6EVPpyQEZPyo1wwBsb2CUnJliA7DUdIHlCsHUg?e=2fqlky',
+        'Inductors': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/ESpfeOD_e1VPtRf8tYQjTYgBzzkm8HBcnMERHhcoqc9J3w?e=Sr3g5E',
+        'LR Circuits': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EbmNd4QtzgBEqR4kOij0ZPIBsGCou1YfygbJqT2kRiefrQ?e=xfU4Wi',
+      }
+    },
+    {
+      lectures: {
+        'LC Circuits': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/Ee-z-t2dJohFrAkwLuPTDSABlfGW8VilfGJOrFd0vEx9Sw?e=AlLgiA',
+        'AC Sources and Phasors': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EWM4liGixRNBpwyVdU0NSAYBXhnWKEVA22bNqfgQZ92hpg?e=sWaxfW',
+        'AC and Capacitor Circuits': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EZwBI7DXIG5FryeG43ffCjwBvinBDToDcUsAe9Y9NYdK2A?e=hu2j5j',
+        'RC Filter Circuits': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EViA9A_USihKuPHmWHk1gX0BQE-ealE8OkV4SSwDiWzgdA?e=HhVMTw',
+        'AC and Inductor Circuits': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/Eep4HomCCP1Lkvy31aFOAEoB2_Mcx60PpLGpNDoqHk7Pyg?e=7ofIpv',
+        'The Series RLC Circuit': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EW2AhBJ00thDlBqmN99lEfYBfB_GYkq1_7NCFqVYRfNdKg?e=qmR4UX',
+        'Power in AC Circuits': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EazXTVfB1v1JhG9WXsKl4oEBCu4ABOiPOmLo-Rt3t2D4Ag?e=SChVhs',
+        'Field Laws Thus Far': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EZcnI-gWtyZNrRb_YD4yTWsBQFpOrLkE9QzjQ-RCCEBg9A?e=3eQBzP',
+        'The Displacement Current': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EfpYlJ0rRqpPsG_whCsDL2EB-f2dS4nPYb5ZU1osK1wI-Q?e=qVmDWM',
+        'Maxwell\'s Equations': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EZ_A7tLGE2REi5iSZk6eRzEBFngK0JbeCIuoAizu_6SoZg?e=2eZgfG',
+        'Magnetic Properties of Matter': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EfXiVgADDCJJlPuExh4vdxcBe5Bx3d42WWYDdZUpuzIchg?e=EzcbpI',
+        'Types of Magnetism': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/Edb_-fLUr1FBlk7F5NhZPtYB3gZZXqkQY27nlSPvWEfvCA?e=NvRlm2',
+        'Properties of Electromagnetic Waves': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EUq0phrmVVlGjEN4X6hwmLUBn7PJuyM_aGpbAsAE3y6C_w?e=qhQ1qr',
+        'Energy Transport and the Poynting Vector': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EThHUwZ9IdlNslZrhs6rzZkB0yXy39wFVmiCkoMoSfReSQ?e=HuqhpI',
+        'Radiation Pressure': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EQt_J6kNZdlHoqRArTay90wBK1KZG6MmGHojRvTgK1ZCIA?e=ifR79q',
+        'Polarization': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/ES28bQuf3TFNog3xjdrJNQUBA3YTr55vzheaAM-VVL9Rvg?e=S2FGNW',
+        'Models of Light': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EXeZB65Gz7xKlRdNyFxwvr8BITWCDKSisjrXM477mBsW0A?e=maI2iR',
+        'The Ray Model of Light': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EWI7R0xIpw9LvjuFaVe_wjQBmSPq9NDWLT9XYDsHMEfRsQ?e=0M1Xxv',
+        'Reflection and Refraction': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EbgZ777Ex3pPvdAXLe0tWK0Bc3o9sSY9a_REp7SpPkD91g?e=ldd2l7',
+        'Color and Dispersion': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EbXQ9izV9G9LhZ6HiRVNDDsBQhMniBGKzHnenYN2oSM4Vw?e=S2ENeQ',
+        'Total Internal Reflection': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EcKBJ8dd23xItFfLewOA97YBRpXKmjiT9hQFrqnB1JzV1w?e=JsDUdD',
+        'Polarization by Reflection': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EVPfDLokVrtAjAgWlZ1dwHcBLXZjtSwbLjQIN_5ULiPArA?e=9jX8iG',
       }
     }
 ]
