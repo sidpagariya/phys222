@@ -611,5 +611,27 @@ export const lectureData: LecturesData[] =
         'Total Internal Reflection': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EcKBJ8dd23xItFfLewOA97YBRpXKmjiT9hQFrqnB1JzV1w?e=JsDUdD',
         'Polarization by Reflection': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EVPfDLokVrtAjAgWlZ1dwHcBLXZjtSwbLjQIN_5ULiPArA?e=9jX8iG',
       }
+    },
+    {
+      lectures: {
+        'Images and Plane Mirrors': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EaNRAmpARwdHkd07Ib-mlq8Ba7EXy7GGF94_kC7HTO74ow?e=qJIkpo',
+        'Image Formation with Spherical Mirrors': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/ERP9ZJ6umh1JpMowXJzXkK4Bs7Rf-8xR9p8wgRUalcfAMg?e=cJrDjT',
+        'Thin Lenses: Ray Tracing': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/ETDrn4RWbWJGlqXIfYLo01oBwU98qALXxRkZGCzUQ1XhIQ?e=xHxxrs',
+        'Image Formation by Refraction at a Plane Surface': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/ET3gjqt0nStPjgQE-NYbI28BOFT859Dro_CMVYYApR-Scg?e=i6hH6J',
+        'Thin Lenses: Refraction Theory': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EXl6Ry-sLqNAuJXNJhtawwYByd4lzwx8MlrLUgS213-L_g?e=ZnFqco',
+        'The Camera': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/Eb0_yn3TXg5BjIQDjiUCAt0BKc5mNGkOouaxg1n_JTMPIw?e=cWlOW3',
+        'Optical Systems That Magnify': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/Eagg7ka6OUxJtYnNtLwn13YBD0CoVIHd6MPXs8P5-ZFC5g?e=2zjfgb',
+        'The Microscope': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/ETbA86Qb30hBoGX9bVDD3lwBK_htUuR4bJlOkYgJW-bEmg?e=A6jhaT',
+        'The Telescope': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/ESSenRg0qFhIvE-uPs2SC5gB7St5XqJ4l8UQ8tjMZYbsgQ?e=CuAw79',
+        'The Wave Model of Light': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/Ee-F547InKdNiIGWua4-t4oB5ARQWaV5KFo5pi0whXG_Jw?e=4wbVec',
+        'The Interference of Light': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/ET_06Y1XdPtAj6Gg7q-JeJUBnuorFvG6bM0k2NOeyirgdw?e=I3bkzy',
+        'Double-Slit Intensity': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/ERfGH5YT6fhKp3oxgRY2XyIB2kVHjHHR5MWrQN_HtWnPCg?e=cpd9L1',
+        'Thin Films': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EV5Srk4qg7JJul0L8pmldh4Bl8fYIyOI-QuTma8aHaAvCQ?e=nkuD2Q',
+        'Interferometers': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EStHg4BAkYZPi6eDKJc6xpQBOszX3oUpblk2P7tk-ppDhg?e=Pde9HO',
+        'Single-Slit Diffraction': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EVGhDC8WIj9KhYX1QSvU1_ABchdeAfKxV532zrfgY7_OwQ?e=2Wqo5B',
+        'Circular-Aperture Diffraction': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EWXpVwahom9NmFuVFrkkxswBu6S8fzbVON0h6MXynwxuLA?e=B7NHFP',
+        'The Diffraction Grating': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/EdSdO9uGec5NmRmzs9zhFPsBeaV4sRmXF69zPrWBrFBwKw?e=7ZETFc',
+        'X-Ray Diffractions': 'https://wccedu-my.sharepoint.com/:p:/g/personal/rkeeton_wccnet_edu/ESwM8RvrpUxJrEHKhRbXZ6UBfKXBQpvjJg4kKSXCKP8GPw?e=tTJqeU',
+      }
     }
 ]
